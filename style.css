@@ -7,8 +7,25 @@ body {
 
 h1 {
     color: aliceblue;
-    font-size: 20px;
+    text-align: center;
 }
 
+header {
+    text-align: center;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+#menu {
+    background-color:rgb(23, 26, 33);
+    text-align: center;
+}
+
+
+#jogos {
+    text-align: center;
+    color: aliceblue;
+    font-size: 17px;
+}
 
 
