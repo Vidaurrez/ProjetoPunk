@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #1B2838;
+}
+
+.cabeçalho ul li {
+    list-style: none;
+}
+
+.cabeçalho ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+.cabeçalho {
+    background-color: #171A21;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.item-menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(198, 199, 200);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+form {
+    background-color: #2a475e;
+    margin-top: 50px;
+    margin-right: 800px;
+    margin-left: 800px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.login {
+    text-align: center;
+    color: rgb(198, 199, 200);
+}

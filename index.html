@@ -5,57 +5,64 @@
         <meta charset="UTF-8">
         <meta name="viewport"content="width=device-width, initial-scale=1.0">
         <title>Bem-Vindo ao Punk</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
 
-        <header>
-            <a href="index.html"> <img src="Imagens/PUNK.png" widht="200" height="100"> </a>
-            <a href="index.html">Loja</a>
-            <a href="Sobre.html">Sobre</a>
-            <a href="Suporte.html">Suporte</a>
-
-                <a href="login.html"> <input type="button" value="Login" ></a>
-                <input type="search" id="busca" placeholder="Buscar">
-        </header>
-
-            
-        <br>
-
-        <div id="menu">
-           <!--<img src="Imagens/black.png" width="800" height="400">-->
-            <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" rel="external"> <img src="Imagens/Jogos/ELDEN.jpg" width="667" height="376"> </a>
-            <strong>Elden Ring</strong>
-        </div id="menu">
-
-            <br>
-
-        <div id="jogos">
-
-            <section id="gow">
-                <a href="https://store.steampowered.com/app/1593500/God_of_War/"target="_blank" rel="external"> <img src="Imagens/Jogos/GOWicon.jpg" width="175" height="225"> </a>
-                <p>God of War</p>
-            </section>
-            <section>
-                <a href="https://store.steampowered.com/app/1506830/FIFA_22/l"target="_blank" rel="external"> <img src="Imagens/Jogos/FIFA22icon.jpg" width="175" height="225"> </a>
-                <p>Fifa 22</p>
-            </section>
-            <section>
-                <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/"target="_blank" rel="external"> <img src="Imagens/Jogos/REVicon.jpg" width="175" height="225"> </a>
-                <p>Resident Evil Village</p>
-            </section>
-            <section>
-                <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"target="_blank" rel="external"> <img src="Imagens/Jogos/RDR2icon.jpg" width="175" height="225"> </a>
-                <p>Red Dead Redemption II</p>
-            </section>
-            <section id="gta">
-                <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"target="_blank" rel="external"> <img src="Imagens/Jogos/GTAVicon.jpg" width="175" height="225"> </a>
-                <p>GTA V</p>
-            </section>
-
-        </div>
-
+        <main>
+            <div>
+                <div class="cabeçalho">
+                    <a href="index.html"> <img src="Imagens/PUNK.png" class="logo"> </a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="item-menu">Loja</a></li>
+                            <li><a href="Sobre.html" class="item-menu">Sobre</a></li>
+                            <li><a href="Suporte.html" class="item-menu">Suporte</a></li>
+                            <li><a href="login.html" class="item-menu">login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img src="Imagens/banner.jpg" class="img-grande">
+            </div>
+                <div class="scroll">
+                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" class="scroll-menu" target="_blank" rel="external"> <img src="Imagens/Jogos/ELDEN.jpg" width="667" height="376"> </a>
+                    <strong>Elden Ring</strong>
+                </div>
+                <div class="jogos">
+                    <div>
+                        <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank" rel="external"> <img src="Imagens/Jogos/GOWicon.jpg"></a>
+                        <p>God of War</p> <p>R$199,90</p>
+                    </div>
+                    <div>
+                        <a href="https://store.steampowered.com/app/1506830/FIFA_22/l"target="_blank" rel="external"> <img src="Imagens/Jogos/FIFA22icon.jpg"></a>
+                        <p>Fifa 22</p> <p>R$249</p>
+                    </div>
+                    <div>
+                        <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/"target="_blank" rel="external"> <img src="Imagens/Jogos/REVicon.jpg"></a>
+                        <p>Resident Evil Village</p> <p>R$179,99</p>
+                    </div>
+                    <div>
+                        <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"target="_blank" rel="external"> <img src="Imagens/Jogos/RDR2icon.jpg"></a>
+                        <p>Red Dead Redemption II</p> <p>R$139</p>
+                    </div>
+                    <div>
+                        <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"target="_blank" rel="external"> <img src="Imagens/Jogos/GTAVicon.jpg"></a>
+                        <p>GTA V</p> <p>R$66,66</p>
+                    </div>
+                </div>
+        </main>
+        
+        <footer>
+            <p>PUNK</p>
+            <div class="footer">
+                <ul>
+                    <li><a href="#" class="item-footer">Termos de Serviços</a></li>
+                    <li><a href="#" class="item-footer">Sobre Nós</a></li>
+                    <li><a href="#" class="item-footer">Política de Reembolso da Loja</a></li>
+                </ul>
+            </div>
+        </footer>
 
     </body>
 
