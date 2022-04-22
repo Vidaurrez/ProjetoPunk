@@ -77,17 +77,11 @@ a.scroll-menu {
     border-radius: 8px;
 }
 
-.jogos2:hover {
-    color: aliceblue;
-}
-
-.promoção {
-    color: rgb(0, 0, 0);
-}
-
 strike {
     color: aliceblue;
 }
+
+/*footer*/
 
 footer {
     background-color: #171A21;
@@ -113,4 +107,8 @@ a.item-footer {
     flex-direction: row;
     gap: 30px;
     padding-right: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
 }

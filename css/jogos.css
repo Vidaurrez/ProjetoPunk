@@ -1,0 +1,226 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #1B2838;
+}
+
+/*Menu*/
+
+.cabeçalho ul li {
+    list-style: none;
+}
+
+.cabeçalho ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+.cabeçalho {
+    background-color: #171A21;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+a.item-menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(198, 199, 200);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+/*Jogo*/
+
+.jogo_inteiro {
+    width: 65%;
+    margin: auto;
+    padding-top: 75px;
+    align-items: center;
+    background-color: #2e3e52;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.video {
+    margin-bottom: 0px;
+}
+
+.jogo_metade {
+    display: flex;
+    gap: 130px;
+}
+
+.titulo_jogo {
+    font-family: 'Quicksand',sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.img_jogo {
+    display: flex;
+    text-align: right;
+}
+
+/*descrição*/
+
+.desc {
+    color: #fff;
+}
+
+.desc_2 {
+    color: rgb(194, 194, 194);
+    font-size: 19px;
+    padding-right: 50%;
+}
+
+.desc_2 ul li {
+    margin-bottom: 20px;
+}
+
+.requisitos {
+    margin-top: 100px;
+}
+
+.requisitos ul li {
+    font-size: 18px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.sobre {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.desc_titulo {
+    margin-top: 50px;
+}
+
+.desc_titulo2 {
+    margin-top: 50px;
+    color: aliceblue
+}
+
+/*botões*/
+
+.buttons {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.buttons ul li {
+    list-style: none;
+}
+
+.button1 {
+    display: inline-flex;
+    height: 50px;
+    padding: 20px 67px;
+    background: #0074E4;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button1:hover {
+    background: #328bdf;
+}
+
+.button1:active {
+    background: #559adb;
+    border-color: aliceblue;
+}
+
+.button_text {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.button2 {
+    display: inline-flex;
+    height: 50px;
+    background-color: #2e3e52;
+    padding: 14px 28px;
+    border: 0.5px solid #fff;
+    border-color: #fff;
+    color: #2e3e52;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button3 {
+    display: inline-flex;
+    height: 25px;
+    background-color: #2e3e52;
+    padding: 14px 3.5px;
+    border: 0.5px solid #fff;
+    border-color: #fff;
+    color: #2e3e52;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer {
+    background-color: #171A21;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(198, 199, 200);
+    margin-top: 50px;
+}
+
+a.item-footer {
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(198, 199, 200);
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
